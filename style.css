@@ -31,4 +31,7 @@ position: absolute;
 .rotate-minute{
     transform: rotate(270deg);
     z-index: 1;
+
+
 }
+
