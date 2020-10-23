@@ -1,3 +1,5 @@
+//Automation for the clock!!!
+
 
 function tickSecond() {
     let countDown = 0;
