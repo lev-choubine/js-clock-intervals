@@ -16,7 +16,8 @@ function setTime(secs,mins,hours){
     secondsHand.style.transform=secPosition;    
 }
 
-setTime(0,9,3);
+setTime(0,29,3);
+
 
 
 
@@ -25,7 +26,7 @@ countDown = countDown  + 6;
 countDown2 =  `rotate(${countDown}deg)`;
 secondsHand.style.transform=countDown2;
 
-console.log(countDown2);
+
 return countDown, countDown2;
 
     
@@ -36,9 +37,9 @@ return countDown, countDown2;
 function tickMinutes() {
     countDown = countDown  + 6;    
     countDown2 =  `rotate(${countDown}deg)`;
-    c=countDown2;
+    minutesHand.style.transform=countDown2;
     
-    console.log(countDown2);
+   
     return countDown, countDown2;
     
         
@@ -48,7 +49,7 @@ function tickMinutes() {
         countDown2 =  `rotate(${countDown}deg)`;
         hoursHand.style.transform=countDown2;
         
-        console.log(countDown2);
+     
         return countDown, countDown2;
         
             
@@ -56,27 +57,9 @@ function tickMinutes() {
 
 
 
-// //function hush() {
-// 	clearInterval(seconds);
-// }
-let seconds = setInterval(tickSecond, 1000);
-//setTimeout(hush, 60000);
 
-// //function hush() {
-// 	clearInterval(seconds);
-// }
+let seconds = setInterval(tickSecond, 1000);
 let minutes = setInterval(tickMinutes, 60000);
 let hours = setInterval(tickMinutes, 36000000);
-//setTimeout(hush, 60000);
 
-// const secondsHand = document.getElementById('second')
 
-// const minutesHand = document.getElementById('minute')
-
-// const hoursHand = document.getElementById('hour')
-
-// function moveSecondsHand(){
-
-// } 
-
-console.log(seconds);
