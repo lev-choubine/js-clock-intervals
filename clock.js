@@ -1,4 +1,4 @@
-//Automation for the clock!!!
+//Automation for the clock!!!!!!
 let countDown = 0;
 const secondsHand = document.getElementById('second');
 const minutesHand = document.getElementById('minute')

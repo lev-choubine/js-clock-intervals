@@ -21,15 +21,15 @@ position: absolute;
     position: absolute;
 }
 .rotate-hour{
-    transform: rotate(45deg);
+    transform: rotate(0deg);
 
 }
 .rotate-second{
-    transform: rotate(60deg);
+    transform: rotate(0deg);
     z-index: 2;
 }
 .rotate-minute{
-    transform: rotate(270deg);
+    transform: rotate(0deg);
     z-index: 1;
 
 
